@@ -1,0 +1,25 @@
+{
+  "name": "mfc-flir-thermal-plugin",
+  "version": "1.0.0",
+  "description": "Didge plugin to allow access for flir thermal camera",
+  "cordova": {
+    "id": "mfc-flir-thermal-plugin",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/med-achraf-abdelbari/DidgeGoThermalCameraPlugin.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "Mohamed Achref Abdelbari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/med-achraf-abdelbari/DidgeGoThermalCameraPlugin/issues"
+  },
+  "homepage": "https://github.com/med-achraf-abdelbari/DidgeGoThermalCameraPlugin#readme"
+}
