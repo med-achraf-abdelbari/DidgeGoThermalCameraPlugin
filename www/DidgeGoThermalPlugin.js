@@ -1,5 +1,5 @@
 var exec = require('cordova/exec');
 
 exports.startThermalCamera = function (arg0, success, error) {
-    exec(success, error, 'DidgeGoThermalPlugin', 'openNewActivity', [arg0]);
+    exec(success, error, 'DidgeGoThermalPlugin', 'ThermalCameraActivity', [arg0]);
 };
