@@ -1,9 +1,9 @@
 {
-  "name": "mfc-flir-thermal-plugin",
+  "name": "com.mfc.flir",
   "version": "1.0.0",
-  "description": "Didge plugin to allow access for flir thermal camera",
+  "description": "MFC Flir camera thermal plugin",
   "cordova": {
-    "id": "mfc-flir-thermal-plugin",
+    "id": "com.mfc.flir",
     "platforms": [
       "android"
     ]
