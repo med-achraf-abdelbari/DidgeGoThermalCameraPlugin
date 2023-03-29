@@ -1,4 +1,4 @@
-package mfc-flir-thermal-plugin;
+package com.mfc.flir;
 
 import android.app.Activity;
 import android.os.Bundle;

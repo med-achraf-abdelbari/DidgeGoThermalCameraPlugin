@@ -1,11 +1,17 @@
-package mfc-flir-thermal-plugin;
+package com.mfc.flir;
 
+import android.content.Context;
+import android.content.Intent;
+
+import org.apache.cordova.CordovaInterface;
 import org.apache.cordova.CordovaPlugin;
 import org.apache.cordova.CallbackContext;
 
+import org.apache.cordova.CordovaWebView;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+
 
 /**
  * This class echoes a string called from JavaScript.
@@ -29,7 +35,7 @@ public class DidgeGoThermalPlugin extends CordovaPlugin {
     }
 
     private void openNewActivity(Context context) {
-            Intent intent = new Intent(context, ThermalCameraActivity.class);
+            Intent intent = new Intent(context, mfc.ThermalCameraActivity.class);
             this.cordova.getActivity().startActivity(intent);
     }
 

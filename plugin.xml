@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<plugin id="mfc-flir-thermal-plugin" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0"
+<plugin id="com.mfc.flir" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android">
     <name>DidgeGoThermalPlugin</name>
     <js-module name="DidgeGoThermalPlugin" src="www/DidgeGoThermalPlugin.js">
@@ -8,12 +8,12 @@
     <platform name="android">
         <config-file parent="/*" target="res/xml/config.xml">
             <feature name="DidgeGoThermalPlugin">
-                <param name="android-package" value="mfc-flir-thermal-plugin.DidgeGoThermalPlugin"/>
+                <param name="android-package" value="com.mfc.flir.DidgeGoThermalPlugin"/>
             </feature>
         </config-file>
         <config-file parent="/*" target="AndroidManifest.xml"></config-file>
-        <source-file src="src/android/DidgeGoThermalPlugin.java" target-dir="src/mfc-flir-thermal-plugin/DidgeGoThermalPlugin"/>
-        <source-file src="src/android/ThermalCameraActivity.java" target-dir="src/mfc-flir-thermal-plugin/DidgeGoThermalPlugin"/>
-        <source-file src="src/android/ThermalCameraActivity.xml" target-dir="src/mfc-flir-thermal-plugin/DidgeGoThermalPlugin"/>
+        <source-file src="src/android/DidgeGoThermalPlugin.java" target-dir="src/com.mfc.flir/DidgeGoThermalPlugin"/>
+        <source-file src="src/android/ThermalCameraActivity.java" target-dir="src/com.mfc.flir/DidgeGoThermalPlugin"/>
+        <source-file src="src/android/ThermalCameraActivity.xml" target-dir="src/com.mfc.flir/DidgeGoThermalPlugin"/>
     </platform>
 </plugin>

@@ -7,7 +7,7 @@
                 android:paddingLeft="16dp"
                 android:paddingRight="16dp"
                 android:paddingTop="16dp"
-                tools:context="mfc-flir-thermal-plugin.ThermalCameraActivity">
+                tools:context="com.mfc.flir.ThermalCameraActivity">
 
     <TextView
             android:layout_width="fill_parent"
