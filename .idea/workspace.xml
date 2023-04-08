@@ -5,10 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf9a717f-ee27-469d-a333-f154235d09e9" name="Changes" comment="[UPDATE] FIX ACTIVITY IN MANIFEST">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/android/DidgeGoThermalPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/DidgeGoThermalPlugin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/android/ThermalCameraActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/ThermalCameraActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/android/thermal_camera_activity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/thermal_camera_activity.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/DidgeGoThermalPlugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/DidgeGoThermalPlugin.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +54,7 @@
       <option name="presentableId" value="Default" />
       <updated>1679961326445</updated>
       <workItem from="1679961327688" duration="7686000" />
-      <workItem from="1680990477939" duration="5027000" />
+      <workItem from="1680990477939" duration="5072000" />
     </task>
     <task id="LOCAL-00001" summary="[UPDATE] Extras">
       <created>1680129498087</created>
@@ -137,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680993087213</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="[UPDATE] FIX ACTIVITY IN MANIFEST">
+      <created>1680995997454</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1680995997454</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
