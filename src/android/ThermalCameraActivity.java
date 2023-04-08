@@ -9,7 +9,7 @@ public class ThermalCameraActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         String package_name = getApplication().getPackageName();
-        setContentView(getApplication().getResources().getIdentifier("ThermalCameraActivity", "layout", package_name));
+        setContentView(getApplication().getResources().getIdentifier("thermal_camera_activity", "layout", package_name));
     }
 
 }
