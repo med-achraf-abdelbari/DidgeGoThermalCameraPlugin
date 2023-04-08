@@ -11,6 +11,9 @@
                 <param name="android-package" value="com.mfc.flir.DidgeGoThermalPlugin"/>
             </feature>
         </config-file>
+        <config-file target="AndroidManifest.xml" parent="/manifest/application">
+            <activity android:label="DidgeGoThermalPlugin" android:name="com.mfc.flir.ThermalCameraActivity"></activity>
+        </config-file>
         <config-file parent="/*" target="AndroidManifest.xml"></config-file>
         <source-file src="src/android/DidgeGoThermalPlugin.java" target-dir="src/com/mfc/flir/"/>
         <source-file src="src/android/ThermalCameraActivity.java" target-dir="src/com/mfc/flir/"/>
