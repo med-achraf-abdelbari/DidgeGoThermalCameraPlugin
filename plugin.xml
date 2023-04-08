@@ -17,6 +17,6 @@
         <config-file parent="/*" target="AndroidManifest.xml"></config-file>
         <source-file src="src/android/DidgeGoThermalPlugin.java" target-dir="src/com/mfc/flir/"/>
         <source-file src="src/android/ThermalCameraActivity.java" target-dir="src/com/mfc/flir/"/>
-        <source-file src="src/android/ThermalCameraActivity.xml" target-dir="res/layout"/>
+        <source-file src="src/android/thermal_camera_activity.xml" target-dir="res/layout"/>
     </platform>
 </plugin>
