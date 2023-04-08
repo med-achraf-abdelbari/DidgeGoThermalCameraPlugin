@@ -5,5 +5,5 @@ exports.startThermalCamera = function (arg0, success, error) {
 };
 
 exports.closeThermalCamera = function (arg0, success, error) {
-    exec(success, error, 'DidgeGoThermalPlugin', 'CloseThermalCamera', [arg0]);
+    exec(success, error, 'DidgeGoThermalPlugin', 'closeThermalCamera', [arg0]);
 };
