@@ -25,13 +25,13 @@ public class DidgeGoThermalPlugin extends CordovaPlugin {
        @Override
        public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
            Context context = cordova.getActivity().getApplicationContext();
-           if (action.equals("ThermalCameraActivity")) {
+           if (action.equals("startThermalCamera")) {
                String message = args.getString(0);
                this.openNewActivity(context);
                return true;
            }
            else{
-               if (action.equals("CloseThermalCameraActivity")) {
+               if (action.equals("closeThermalCamera")) {
                    this.cordova.getActivity().finish();
                    return true;
                }
