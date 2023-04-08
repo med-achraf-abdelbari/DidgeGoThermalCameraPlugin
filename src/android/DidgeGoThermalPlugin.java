@@ -30,6 +30,12 @@ public class DidgeGoThermalPlugin extends CordovaPlugin {
                this.openNewActivity(context);
                return true;
            }
+           else{
+               if (action.equals("CloseThermalCameraActivity")) {
+                   this.cordova.getActivity().finish();
+                   return true;
+               }
+           }
            return false;
        }
 
